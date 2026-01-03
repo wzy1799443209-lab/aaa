@@ -1,0 +1,29 @@
+# Environment / secrets
+.env
+.env.local
+
+# Data (private)
+data/
+*.sqlite
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
